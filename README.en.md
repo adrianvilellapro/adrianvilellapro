@@ -10,19 +10,19 @@
 <h1 align="center">Adrián Vilella Espony</h1>
 
 <p align="center">
-  <strong>Multimedia engineer · Software developer · Digital experience builder</strong>
+  <strong>Multimedia engineer · Software developer · Frontend & fullstack web</strong>
 </p>
 
 <p align="center">
-  I design and build full web applications, polished interfaces and digital tools that are useful, maintainable and pleasant to use.
+  I build web applications, interactive tools and digital experiences with a solid technical foundation and a polished presentation.
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/adri%C3%A1n-vilella-espony-40a046410">
-    <img src="https://img.shields.io/badge/LinkedIn-Adri%C3%A1n%20Vilella%20Espony-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="./assets/btn-linkedin.svg" alt="LinkedIn" />
   </a>
   <a href="https://github.com/adrianvilellapro">
-    <img src="https://img.shields.io/badge/GitHub-adrianvilellapro-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+    <img src="./assets/btn-github.svg" alt="GitHub" />
   </a>
 </p>
 
@@ -34,35 +34,35 @@
 
 ## Professional Profile
 
-I am a developer with a multimedia background and a full-stack mindset. I enjoy building products where engineering and user experience work together: clear architecture, good performance, coherent visual design and simple workflows for real users.
+I am a Multimedia Engineer graduated from the University of Alicante, specialised in software development and web technologies. My profile is mainly oriented towards frontend development, the area I enjoy the most and where I have developed a large part of my projects using technologies such as React, Angular, JavaScript, TypeScript, HTML and CSS.
 
-I am especially comfortable working on projects that combine:
+At the same time, I have experience in fullstack development, working with technologies such as Node.js, Express, PostgreSQL, MySQL, Prisma and REST APIs. This allows me to work comfortably across the complete development of web applications, from user interfaces to server logic and database management.
 
-- Modern web applications.
-- Structured APIs and backend systems.
-- Relational databases and data modelling.
-- Interface design, prototyping and user experience.
-- Process automation and internal tools.
-- Creative, narrative or multimedia projects.
+During my studies and personal projects, I have participated in the development of applications focused on solving real problems, including management platforms, interactive tools and web applications with authentication, databases and online deployment.
+
+I am currently continuing to expand my knowledge and develop projects focused on web applications, interactive software and modern development technologies.
 
 ---
 
 ## Core Stack
 
 <p>
-  <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Angular-111827?style=for-the-badge&logo=angular" alt="Angular" />
-  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=nodedotjs" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-111827?style=for-the-badge&logo=express" alt="Express" />
-  <img src="https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Prisma-111827?style=for-the-badge&logo=prisma" alt="Prisma" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-111827?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Vite-111827?style=for-the-badge&logo=vite" alt="Vite" />
-  <img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git" alt="Git" />
-  <img src="https://img.shields.io/badge/Figma-111827?style=for-the-badge&logo=figma" alt="Figma" />
-  <img src="https://img.shields.io/badge/WebGL-111827?style=for-the-badge&logo=webgl" alt="WebGL" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
+  <img src="https://img.shields.io/badge/React-087EA4?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-111827?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Figma-A259FF?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white" alt="WebGL" />
 </p>
 
 ---
@@ -72,7 +72,9 @@ I am especially comfortable working on projects that combine:
 ### WikiCodex
 
 <p align="center">
-  <img src="./Recursos/logo.png" alt="WikiCodex logo" width="130" />
+  <a href="https://github.com/adrianvilellapro/WikiCodex-App">
+    <img src="./Recursos/logo.png" alt="WikiCodex logo" width="130" />
+  </a>
 </p>
 
 Web application for organising campaigns, characters, items, places, powers, spells and narrative content for tabletop role-playing games. WikiCodex combines data management, granular privacy and a visual interface designed to browse and maintain complex content with clarity.
@@ -83,38 +85,60 @@ Web application for organising campaigns, characters, items, places, powers, spe
   </a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/adrianvilellapro/WikiCodex-App">
+    <img src="./assets/btn-repo.svg" alt="WikiCodex repository" />
+  </a>
+  <a href="https://adrianvilellapro.github.io/WikiCodex-App/">
+    <img src="./assets/btn-demo.svg" alt="WikiCodex demo" />
+  </a>
+</p>
+
 - React frontend with a complete responsive interface.
 - Node.js, Express, Prisma and PostgreSQL backend.
 - Privacy, permissions, campaigns, versions and media management.
 - Static public demo prepared to showcase the project without consuming production services.
 
-<p>
-  <a href="https://github.com/adrianvilellapro/WikiCodex-App">
-    <img src="https://img.shields.io/badge/Repository-WikiCodex--App-181717?style=for-the-badge&logo=github" alt="WikiCodex-App repository" />
-  </a>
-  <a href="https://adrianvilellapro.github.io/WikiCodex-App/">
-    <img src="https://img.shields.io/badge/Demo-Open%20demo-0A66C2?style=for-the-badge" alt="WikiCodex demo" />
+### Nutrivisor
+
+<p align="center">
+  <a href="https://github.com/adrianvilellapro/Nutrivisor">
+    <img src="./Recursos/nutrivisor-logo.png" alt="Nutrivisor logo" width="150" />
   </a>
 </p>
 
-### Next featured project
+Academic augmented-web project applied to online grocery shopping. Nutrivisor enriches the shopping experience with extended nutritional information, visual indicators and automatic filters over Mercadona products, combining data from the website itself with information from Open Food Facts.
 
-> Replace this block with another relevant project: an application, tool, interactive prototype, game, multimedia system or academic/professional work.
+<p align="center">
+  <a href="https://github.com/adrianvilellapro/Nutrivisor">
+    <img src="./Recursos/nutrivisor-captura.png" alt="Nutrivisor screenshot" width="820" />
+  </a>
+</p>
 
-- Problem it solves.
-- Technologies used.
-- Your role in the project.
-- Main outcome or learning.
+<p align="center">
+  <a href="https://github.com/adrianvilellapro/Nutrivisor">
+    <img src="./assets/btn-repo.svg" alt="Nutrivisor repository" />
+  </a>
+</p>
+
+- Functional Tampermonkey userscript for `tienda.mercadona.es`.
+- Evolution towards a Chrome extension using Manifest V3 and Vite.
+- Nutritional data lookup, Nutri-Score, NOVA, allergens, additives and composition.
+- Automatic visual filters to support faster and more informed purchase decisions.
 
 ---
 
 ## How I Work
 
-- I care about code structure, project architecture and long-term maintainability.
-- I prioritise clear, accessible and polished interfaces, with attention to visual design and user experience.
-- I like documenting important decisions and keeping projects easy to continue.
-- I am always looking to learn new technologies and apply them with judgement when they bring real value.
-- I combine technical judgement with visual sensitivity to build solid, organised and well-presented products.
+- I work comfortably in teams and I like collaborating in an organised way to move projects forward efficiently and coherently.
+
+- I maintain a continuous learning mindset, exploring and learning new technologies, tools and methodologies that can bring value to projects.
+
+- I am interested in understanding the architecture, behaviour and technical decisions behind each application, seeking to understand not only the “how”, but also the “why” behind every solution.
+
+- I try to develop maintainable, structured and scalable code, paying attention to project organisation and clear documentation that supports future work and software evolution.
+
+- I adapt easily to different types of projects, technologies and development environments, while keeping a practical mindset focused on continuous improvement.
 
 ---
 
