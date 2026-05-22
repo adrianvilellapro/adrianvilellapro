@@ -1,9 +1,9 @@
 <p align="center">
   <a href="./README.md">
-    <img src="https://img.shields.io/badge/ESP-seleccionado-0A66C2?style=for-the-badge" alt="Español seleccionado" />
+    <img src="./assets/lang-esp-active.svg" alt="ESP seleccionado" />
   </a>
   <a href="./README.en.md">
-    <img src="https://img.shields.io/badge/ENG-English-111827?style=for-the-badge" alt="English version" />
+    <img src="./assets/lang-eng.svg" alt="English version" />
   </a>
 </p>
 
@@ -18,15 +18,16 @@
 </p>
 
 <p align="center">
-  <a href="mailto:adrian.vilella.pro@gmail.com">
-    <img src="https://img.shields.io/badge/Email-adrian.vilella.pro%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
   <a href="https://www.linkedin.com/in/adri%C3%A1n-vilella-espony-40a046410">
     <img src="https://img.shields.io/badge/LinkedIn-Adri%C3%A1n%20Vilella%20Espony-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://github.com/adrianvilellapro">
     <img src="https://img.shields.io/badge/GitHub-adrianvilellapro-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
   </a>
+</p>
+
+<p align="center">
+  <strong>Email:</strong> <a href="mailto:adrian.vilella.pro@gmail.com">adrian.vilella.pro@gmail.com</a>
 </p>
 
 ---
@@ -50,6 +51,8 @@ Trabajo especialmente cómodo en proyectos que combinan:
 
 <p>
   <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Angular-111827?style=for-the-badge&logo=angular" alt="Angular" />
   <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react" alt="React" />
   <img src="https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=nodedotjs" alt="Node.js" />
   <img src="https://img.shields.io/badge/Express-111827?style=for-the-badge&logo=express" alt="Express" />
@@ -59,6 +62,7 @@ Trabajo especialmente cómodo en proyectos que combinan:
   <img src="https://img.shields.io/badge/Vite-111827?style=for-the-badge&logo=vite" alt="Vite" />
   <img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git" alt="Git" />
   <img src="https://img.shields.io/badge/Figma-111827?style=for-the-badge&logo=figma" alt="Figma" />
+  <img src="https://img.shields.io/badge/WebGL-111827?style=for-the-badge&logo=webgl" alt="WebGL" />
 </p>
 
 ---
@@ -67,12 +71,22 @@ Trabajo especialmente cómodo en proyectos que combinan:
 
 ### WikiCodex
 
-Aplicación web para organizar campañas, personajes, objetos, lugares, poderes, hechizos y contenido narrativo de partidas de rol.
+<p align="center">
+  <img src="./Recursos/logo.png" alt="Logo de WikiCodex" width="130" />
+</p>
+
+Aplicación web para organizar campañas, personajes, objetos, lugares, poderes, hechizos y contenido narrativo de partidas de rol. WikiCodex combina gestión de datos, privacidad granular y una interfaz visual pensada para consultar y mantener contenido complejo sin perder claridad.
+
+<p align="center">
+  <a href="https://adrianvilellapro.github.io/WikiCodex-App/">
+    <img src="./Recursos/Home.jpg" alt="Captura de la demo de WikiCodex" width="820" />
+  </a>
+</p>
 
 - Frontend en React con una interfaz completa y responsive.
 - Backend con Node.js, Express, Prisma y PostgreSQL.
 - Gestión de privacidad, permisos, campañas, versiones y contenido multimedia.
-- Demo estática pública preparada para GitHub Pages.
+- Demo estática pública preparada para enseñar el proyecto sin consumir servicios de producción.
 
 <p>
   <a href="https://github.com/adrianvilellapro/WikiCodex-App">
@@ -96,19 +110,11 @@ Aplicación web para organizar campañas, personajes, objetos, lugares, poderes,
 
 ## Cómo trabajo
 
-- Cuido la estructura del código y la mantenibilidad.
-- Priorizo interfaces claras, accesibles y agradables.
+- Cuido la estructura del código, la arquitectura del proyecto y la mantenibilidad a largo plazo.
+- Priorizo interfaces claras, accesibles y agradables, con atención al diseño visual y a la experiencia de usuario.
 - Me gusta documentar decisiones importantes y dejar proyectos fáciles de continuar.
-- Combino criterio técnico con sensibilidad visual y experiencia de usuario.
-
----
-
-## Estadísticas
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=adrianvilellapro&show_icons=true&theme=default&hide_border=true" alt="Estadísticas de GitHub" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adrianvilellapro&layout=compact&theme=default&hide_border=true" alt="Lenguajes principales" />
-</p>
+- Busco aprender nuevas tecnologías de forma constante y aplicarlas con criterio cuando aportan valor real.
+- Combino criterio técnico con sensibilidad visual para construir productos sólidos, ordenados y bien presentados.
 
 ---
 
