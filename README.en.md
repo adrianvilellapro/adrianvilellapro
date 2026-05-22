@@ -10,7 +10,7 @@
 <h1 align="center">Adrián Vilella Espony</h1>
 
 <p align="center">
-  <strong>Multimedia engineer · Software developer · Frontend & fullstack web</strong>
+  <strong>Multimedia engineer · Software developer · Fullstack web</strong>
 </p>
 
 <p align="center">
@@ -119,6 +119,9 @@ Academic augmented-web project applied to online grocery shopping. Nutrivisor en
   <a href="https://github.com/adrianvilellapro/Nutrivisor">
     <img src="./assets/btn-repo.svg" alt="Nutrivisor repository" />
   </a>
+  <a href="https://chromewebstore.google.com/detail/niobahhmkhhjpdafnnmcdfpkbkjipiie?utm_source=item-share-cb">
+    <img src="./assets/btn-chrome-store.svg" alt="Nutrivisor on Chrome Web Store" />
+  </a>
 </p>
 
 - Functional Tampermonkey userscript for `tienda.mercadona.es`.
@@ -149,4 +152,3 @@ I am open to collaborating on web development, interactive applications, digital
 - Email: [adrian.vilella.pro@gmail.com](mailto:adrian.vilella.pro@gmail.com)
 - LinkedIn: [Adrián Vilella Espony](https://www.linkedin.com/in/adri%C3%A1n-vilella-espony-40a046410)
 - GitHub: [@adrianvilellapro](https://github.com/adrianvilellapro)
-
