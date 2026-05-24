@@ -73,7 +73,7 @@ I am currently continuing to expand my knowledge and develop projects focused on
 
 <p align="center">
   <a href="https://github.com/adrianvilellapro/WikiCodex-App">
-    <img src="./Recursos/logo.png" alt="WikiCodex logo" width="130" />
+    <img src="./public/portfolio-assets/wikicodex-logo.png" alt="WikiCodex logo" width="130" />
   </a>
 </p>
 
@@ -81,7 +81,7 @@ Web application for organising campaigns, characters, items, places, powers, spe
 
 <p align="center">
   <a href="https://adrianvilellapro.github.io/WikiCodex-App/">
-    <img src="./Recursos/Home.jpg" alt="WikiCodex demo screenshot" width="820" />
+    <img src="./public/portfolio-assets/wikicodex-home.jpg" alt="WikiCodex demo screenshot" width="820" />
   </a>
 </p>
 
@@ -99,11 +99,41 @@ Web application for organising campaigns, characters, items, places, powers, spe
 - Privacy, permissions, campaigns, versions and media management.
 - Static public demo prepared to showcase the project without consuming production services.
 
+### CrowdCompass
+
+<p align="center">
+  <a href="https://github.com/adrianvilellapro/CrowdCompass">
+    <img src="./public/portfolio-assets/crowdcompass-logo.png" alt="CrowdCompass logo" width="140" />
+  </a>
+</p>
+
+Web application for large events with interactive 3D orientation, indoor routes, ticket management, venues, seats and digital assistance to improve the attendee experience inside a venue.
+
+<p align="center">
+  <a href="https://github.com/adrianvilellapro/CrowdCompass">
+    <img src="./public/portfolio-assets/crowdcompass-landing.jpg" alt="CrowdCompass screenshot" width="820" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/adrianvilellapro/CrowdCompass">
+    <img src="./assets/btn-repo.svg" alt="CrowdCompass repository" />
+  </a>
+  <a href="https://crowdcompass.ovh/">
+    <img src="./assets/btn-demo.svg" alt="CrowdCompass live project" />
+  </a>
+</p>
+
+- University ABP team project developed at the University of Alicante.
+- Angular and TypeScript frontend with 3D visualisation using Three.js and WebGL.
+- Node.js, Express, Sequelize, MySQL, JWT and Google OAuth backend.
+- Management of events, venues, zones, seats, tickets, points of interest and indoor routes.
+
 ### Nutrivisor
 
 <p align="center">
   <a href="https://github.com/adrianvilellapro/Nutrivisor">
-    <img src="./Recursos/nutrivisor-logo.png" alt="Nutrivisor logo" width="150" />
+    <img src="./public/portfolio-assets/nutrivisor-logo.png" alt="Nutrivisor logo" width="150" />
   </a>
 </p>
 
@@ -111,7 +141,7 @@ Academic augmented-web project applied to online grocery shopping. Nutrivisor en
 
 <p align="center">
   <a href="https://github.com/adrianvilellapro/Nutrivisor">
-    <img src="./Recursos/nutrivisor-captura.png" alt="Nutrivisor screenshot" width="820" />
+    <img src="./public/portfolio-assets/nutrivisor-captura.png" alt="Nutrivisor screenshot" width="820" />
   </a>
 </p>
 
