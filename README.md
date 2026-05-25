@@ -20,6 +20,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/adri%C3%A1n-vilella-espony-40a046410"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/adrianvilellapro"><img src="https://img.shields.io/badge/GitHub-1f2937?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://adrianvilellapro.github.io/adrianvilellapro/"><img src="https://img.shields.io/badge/Portfolio_web-2563eb?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio web" /></a>
 </p>
 
 <p align="center">
