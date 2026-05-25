@@ -18,12 +18,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/adri%C3%A1n-vilella-espony-40a046410">
-    <img src="./assets/btn-linkedin.svg" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/adrianvilellapro">
-    <img src="./assets/btn-github.svg" alt="GitHub" />
-  </a>
+  <a href="https://www.linkedin.com/in/adri%C3%A1n-vilella-espony-40a046410"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/adrianvilellapro"><img src="https://img.shields.io/badge/GitHub-1f2937?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 <p align="center">
@@ -86,12 +82,8 @@ Aplicación web para organizar campañas, personajes, objetos, lugares, poderes,
 </p>
 
 <p align="center">
-  <a href="https://github.com/adrianvilellapro/WikiCodex-App">
-    <img src="./assets/btn-repo.svg" alt="Repositorio de WikiCodex" />
-  </a>
-  <a href="https://adrianvilellapro.github.io/WikiCodex-App/">
-    <img src="./assets/btn-demo.svg" alt="Demo de WikiCodex" />
-  </a>
+  <a href="https://github.com/adrianvilellapro/WikiCodex-App"><img src="https://img.shields.io/badge/Repositorio-1f2937?style=for-the-badge&logo=github&logoColor=white" alt="Repositorio de WikiCodex" /></a>
+  <a href="https://adrianvilellapro.github.io/WikiCodex-App/"><img src="https://img.shields.io/badge/Demo-2563eb?style=for-the-badge&logo=githubpages&logoColor=white" alt="Demo de WikiCodex" /></a>
 </p>
 
 - Frontend en React con una interfaz completa y responsive.
@@ -116,12 +108,8 @@ Aplicación web para eventos multitudinarios con orientación 3D interactiva, ru
 </p>
 
 <p align="center">
-  <a href="https://github.com/adrianvilellapro/CrowdCompass">
-    <img src="./assets/btn-repo.svg" alt="Repositorio de CrowdCompass" />
-  </a>
-  <a href="https://crowdcompass.ovh/">
-    <img src="./assets/btn-demo.svg" alt="CrowdCompass desplegado" />
-  </a>
+  <a href="https://github.com/adrianvilellapro/CrowdCompass"><img src="https://img.shields.io/badge/Repositorio-1f2937?style=for-the-badge&logo=github&logoColor=white" alt="Repositorio de CrowdCompass" /></a>
+  <a href="https://crowdcompass.ovh/"><img src="https://img.shields.io/badge/P%C3%A1gina_desplegada-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Página desplegada de CrowdCompass" /></a>
 </p>
 
 - Proyecto universitario ABP desarrollado en equipo en la Universidad de Alicante.
@@ -146,12 +134,8 @@ Proyecto académico de web aumentada aplicado al supermercado online. Nutrivisor
 </p>
 
 <p align="center">
-  <a href="https://github.com/adrianvilellapro/Nutrivisor">
-    <img src="./assets/btn-repo.svg" alt="Repositorio de Nutrivisor" />
-  </a>
-  <a href="https://chromewebstore.google.com/detail/niobahhmkhhjpdafnnmcdfpkbkjipiie?utm_source=item-share-cb">
-    <img src="./assets/btn-chrome-store.svg" alt="Nutrivisor en Chrome Web Store" />
-  </a>
+  <a href="https://github.com/adrianvilellapro/Nutrivisor"><img src="https://img.shields.io/badge/Repositorio-1f2937?style=for-the-badge&logo=github&logoColor=white" alt="Repositorio de Nutrivisor" /></a>
+  <a href="https://chromewebstore.google.com/detail/niobahhmkhhjpdafnnmcdfpkbkjipiie?utm_source=item-share-cb"><img src="https://img.shields.io/badge/Chrome_Web_Store-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Nutrivisor en Chrome Web Store" /></a>
 </p>
 
 - Userscript funcional para Tampermonkey sobre `tienda.mercadona.es`.
