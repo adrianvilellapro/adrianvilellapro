@@ -10,7 +10,8 @@
     "build:pages": "tsc --noEmit && vite build --outDir docs && node scripts/prerender.mjs docs",
     "preview": "vite preview --host 127.0.0.1",
     "optimize:images": "node scripts/optimize-images.mjs",
-    "test": "playwright test"
+    "test": "playwright test",
+    "test:cv": "playwright test --config tests/cv-viewer.config.ts"
   },
   "dependencies": {
     "@fontsource-variable/manrope": "^5.3.0",

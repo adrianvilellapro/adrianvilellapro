@@ -16,6 +16,11 @@ try {
   const page = template.replace('<div id="root"></div>', () => `<div id="root">${html}</div>`)
     .replace('</head>', () => `<script type="application/ld+json">${json}</script></head>`);
   await writeFile(filename, page);
+  const { render: renderCard } = await server.ssrLoadModule('/src/card/entry-server.tsx');
+  const cardFile = resolve(output, 'card/index.html');
+  const cardTemplate = await readFile(cardFile, 'utf8');
+  if (!cardTemplate.includes('<div id="root"></div>')) throw new Error('Missing empty card root in build');
+  await writeFile(cardFile, cardTemplate.replace('<div id="root"></div>', () => `<div id="root">${renderCard()}</div>`));
   await writeFile(resolve(output, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${siteUrl}</loc></url></urlset>\n`);
   console.log(`HTML completo, perfil estructurado y sitemap generados en ${output}/.`);
 } finally {

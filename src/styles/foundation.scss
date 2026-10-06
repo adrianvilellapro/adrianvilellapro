@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Manrope Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 800;
+  src: url('../../node_modules/@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2') format('woff2');
+}
+
+:root {
+  font-family: 'Manrope Variable', 'Segoe UI', sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #20242e;
+  --muted: #555f6f;
+  --accent: #2456d8;
+  --line: #dde1e8;
+  --paper: #f8f9fb;
+  --surface: #fff;
+  --soft: #eff2f7;
+  --hover: #e7ecf5;
+  --heading-muted: #677180;
+  --badge-bg: #edf2fd;
+  --badge-ink: #3c507a;
+  --button: #2456d8;
+  --button-hover: #1945bd;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --ink: #edf1f8;
+  --muted: #afb9c9;
+  --accent: #97b5ff;
+  --line: #343f51;
+  --paper: #121722;
+  --surface: #1b2331;
+  --soft: #181f2d;
+  --hover: #28344b;
+  --heading-muted: #b1bdd0;
+  --badge-bg: #24314c;
+  --badge-ink: #c2d2f8;
+  --button: #315fe3;
+  --button-hover: #3e6dee;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; cursor: pointer; }
+button, a, summary { -webkit-tap-highlight-color: transparent; }
+button { border: 0; }
+button:disabled { cursor: default; }
+img { display: block; max-width: 100%; }
+svg { flex-shrink: 0; }
+h1, h2, h3, h4, p, figure { margin: 0; }
+ul { margin: 0; padding: 0; }
+::selection { background: #dce5ff; color: #183579; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; border-radius: 3px; }
+main:focus { outline: none; }
+[id] { scroll-margin-top: 28px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }

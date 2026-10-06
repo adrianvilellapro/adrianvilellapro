@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#f8f9fb" />
+    <script>
+      (() => {
+        let theme;
+        try { theme = localStorage.getItem('portfolio-theme'); } catch {}
+        const dark = theme === 'dark' || (theme !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        document.querySelector('meta[name="theme-color"]').content = dark ? '#121722' : '#f8f9fb';
+      })();
+    </script>
+    <title>Adrián Vilella | Contacto profesional</title>
+    <meta name="description" content="Tarjeta profesional de Adrián Vilella, desarrollador de software junior. CV, portfolio, LinkedIn, GitHub y contacto." />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+    <link rel="canonical" href="https://adrianvilellapro.github.io/adrianvilellapro/card/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:title" content="Adrián Vilella Espony" />
+    <meta property="og:description" content="Desarrollador de software junior" />
+    <meta property="og:url" content="https://adrianvilellapro.github.io/adrianvilellapro/card/" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/card/index.tsx"></script>
+  </body>
+</html>
