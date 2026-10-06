@@ -1,3 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+Sitemap: https://adrianvilellapro.github.io/adrianvilellapro/sitemap.xml

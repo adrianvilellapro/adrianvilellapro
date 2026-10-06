@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f8f9fb" />
+    <script>
+      (() => {
+        let theme;
+        try { theme = localStorage.getItem('portfolio-theme'); } catch {}
+        const dark = theme === 'dark' || (theme !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        document.querySelector('meta[name="theme-color"]').content = dark ? '#121722' : '#f8f9fb';
+      })();
+    </script>
+    <title>Adrián Vilella | Desarrollador de Software</title>
+    <meta name="description" content="Portfolio de Adrián Vilella, desarrollador de software junior e Ingeniero Multimedia. Proyectos full stack, aplicaciones web y herramientas digitales." />
+    <meta name="author" content="Adrián Vilella Espony" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <link rel="canonical" href="https://adrianvilellapro.github.io/adrianvilellapro/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:title" content="Adrián Vilella | Desarrollador de Software" />
+    <meta property="og:description" content="Desarrollador de software junior. Conoce mis proyectos: Nutrivisor, WikiCodex y CrowdCompass." />
+    <meta property="og:url" content="https://adrianvilellapro.github.io/adrianvilellapro/" />
+    <meta property="og:image" content="https://adrianvilellapro.github.io/adrianvilellapro/social-preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Adrián Vilella. Desarrollo de software. Proyectos completos, del problema al producto." />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>
