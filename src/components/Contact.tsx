@@ -2,8 +2,10 @@ import { useEffect, useRef, useState } from 'react';
 import { ArrowUpRightIcon, CheckIcon, CopySimpleIcon, EnvelopeSimpleIcon, XIcon } from '@phosphor-icons/react';
 import { profile } from '../data/profile';
 import { ExternalLink } from './ExternalLink';
+import { useLanguage } from '../i18n';
 
 export function Contact() {
+  const { t } = useLanguage();
   const [message, setMessage] = useState('');
   const [open, setOpen] = useState(false);
   const dialog = useRef<HTMLDialogElement>(null);
@@ -20,22 +22,22 @@ export function Contact() {
   }, [open]);
   const copyEmail = async () => {
     clearTimeout(timer.current);
-    try { await navigator.clipboard.writeText(profile.email); setMessage('Correo copiado'); }
-    catch { setMessage('No se pudo copiar. Selecciona la dirección o abre Gmail u Outlook desde Escríbeme.'); }
+    try { await navigator.clipboard.writeText(profile.email); setMessage(t('Correo copiado', 'Email copied')); }
+    catch { setMessage(t('No se pudo copiar. Selecciona la dirección o abre Gmail u Outlook desde Escríbeme.', 'Could not copy. Select the address or open Gmail or Outlook from Write to me.')); }
     timer.current = setTimeout(() => setMessage(''), 5000);
   };
   return (
     <section className="contact-section" id="contacto" aria-labelledby="contact-title">
       <div className="container contact-inner">
         <div>
-          <p className="eyebrow section-eyebrow"><span>05</span> CONTACTO</p>
-          <h2 id="contact-title">¿Hablamos<span>?</span></h2>
-          <p className="contact-description">Actualmente busco una oportunidad junior donde pueda trabajar en proyectos reales, seguir creciendo como desarrollador y aportar desde la base técnica que ya he construido.</p>
-          <button ref={trigger} className="button button-primary" aria-haspopup="dialog" onClick={() => setOpen(true)}><EnvelopeSimpleIcon size={20} /> Escríbeme <ArrowUpRightIcon size={18} /></button>
+          <p className="eyebrow section-eyebrow"><span>05</span> {t('CONTACTO', 'CONTACT')}</p>
+          <h2 id="contact-title">{t('¿Hablamos', 'Shall we talk')}<span>?</span></h2>
+          <p className="contact-description">{t('Actualmente busco una oportunidad junior donde pueda trabajar en proyectos reales, seguir creciendo como desarrollador y aportar desde la base técnica que ya he construido.', 'I am currently looking for a junior role where I can work on real projects, keep growing as a developer and contribute with the technical foundation I have already built.')}</p>
+          <button ref={trigger} className="button button-primary" aria-haspopup="dialog" onClick={() => setOpen(true)}><EnvelopeSimpleIcon size={20} /> {t('Escríbeme', 'Write to me')} <ArrowUpRightIcon size={18} /></button>
         </div>
         <div className="contact-links">
-          <span className="small-label">PUEDES ENCONTRARME AQUÍ</span>
-          <div className="email-row"><a href={`mailto:${profile.email}`}>{profile.email}</a><button className="icon-button" onClick={copyEmail} aria-label="Copiar correo electrónico">{message === 'Correo copiado' ? <CheckIcon size={19} /> : <CopySimpleIcon size={19} />}</button></div>
+          <span className="small-label">{t('PUEDES ENCONTRARME AQUÍ', 'YOU CAN FIND ME HERE')}</span>
+          <div className="email-row"><a href={`mailto:${profile.email}`}>{profile.email}</a><button className="icon-button" onClick={copyEmail} aria-label={t('Copiar correo electrónico', 'Copy email address')}>{message === t('Correo copiado', 'Email copied') ? <CheckIcon size={19} /> : <CopySimpleIcon size={19} />}</button></div>
           {!open && <p className="copy-feedback" role="status">{message}</p>}
           <ExternalLink href={profile.linkedin}>LinkedIn <ArrowUpRightIcon size={21} /></ExternalLink>
           <ExternalLink href={profile.github}>GitHub <ArrowUpRightIcon size={21} /></ExternalLink>
@@ -50,18 +52,18 @@ export function Contact() {
         if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
       }}>
         <div className="contact-dialog-inner">
-          <button className="icon-button dialog-close" aria-label="Cerrar opciones de contacto" onClick={() => setOpen(false)} autoFocus><XIcon size={24} /></button>
+          <button className="icon-button dialog-close" aria-label={t('Cerrar opciones de contacto', 'Close contact options')} onClick={() => setOpen(false)} autoFocus><XIcon size={24} /></button>
           <EnvelopeSimpleIcon size={32} className="accent" />
-          <h3 id="write-title">Escríbeme</h3>
-          <p id="write-description">Elige dónde quieres redactar tu mensaje.</p>
+          <h3 id="write-title">{t('Escríbeme', 'Write to me')}</h3>
+          <p id="write-description">{t('Elige dónde quieres redactar tu mensaje.', 'Choose where to compose your message.')}</p>
           <div className="email-address">{profile.email}</div>
           <div className="mail-options">
-            <ExternalLink href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(profile.email)}`}><span>Abrir Gmail</span><ArrowUpRightIcon size={20} /></ExternalLink>
-            <ExternalLink href={`https://outlook.live.com/mail/0/deeplink/compose?to=${encodeURIComponent(profile.email)}`}><span>Abrir Outlook</span><ArrowUpRightIcon size={20} /></ExternalLink>
-            <button onClick={copyEmail}><span>Copiar dirección</span><CopySimpleIcon size={20} /></button>
+            <ExternalLink href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(profile.email)}`}><span>{t('Abrir Gmail', 'Open Gmail')}</span><ArrowUpRightIcon size={20} /></ExternalLink>
+            <ExternalLink href={`https://outlook.live.com/mail/0/deeplink/compose?to=${encodeURIComponent(profile.email)}`}><span>{t('Abrir Outlook', 'Open Outlook')}</span><ArrowUpRightIcon size={20} /></ExternalLink>
+            <button onClick={copyEmail}><span>{t('Copiar dirección', 'Copy address')}</span><CopySimpleIcon size={20} /></button>
           </div>
           <p className="dialog-copy-feedback" role="status">{message}</p>
-          <p className="mail-help">Gmail y Outlook se abren en una pestaña nueva. También puedes copiar la dirección y utilizar tu servicio de correo habitual.</p>
+          <p className="mail-help">{t('Gmail y Outlook se abren en una pestaña nueva. También puedes copiar la dirección y utilizar tu servicio de correo habitual.', 'Gmail and Outlook open in a new tab. You can also copy the address and use your usual email service.')}</p>
         </div>
       </dialog>}
     </section>

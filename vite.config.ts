@@ -16,7 +16,7 @@ export default defineConfig({
   base: './',
   build: {
     rollupOptions: {
-      input: { portfolio: resolve(__dirname, 'index.html'), card: resolve(__dirname, 'card/index.html') },
+      input: { portfolio: resolve(__dirname, 'index.html'), english: resolve(__dirname, 'index.en.html'), card: resolve(__dirname, 'card/index.html') },
     },
   },
   server: { port: 5173, strictPort: true },

@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import { MoonIcon, SunIcon } from '@phosphor-icons/react';
+import { useLanguage } from '../i18n';
 
 export function ThemeToggle() {
+  const { t } = useLanguage();
   // The first render matches the static HTML; CSS already uses the preloaded theme.
   const [dark, setDark] = useState(false);
 
@@ -30,5 +32,6 @@ export function ThemeToggle() {
     try { localStorage.setItem('portfolio-theme', next ? 'dark' : 'light'); } catch { /* The toggle still works without persistence. */ }
   };
 
-  return <button className="theme-toggle icon-button" onClick={toggle} aria-label={dark ? 'Activar modo claro' : 'Activar modo oscuro'} title={dark ? 'Activar modo claro' : 'Activar modo oscuro'}>{dark ? <SunIcon size={22} /> : <MoonIcon size={22} />}</button>;
+  const label = dark ? t('Activar modo claro', 'Switch to light mode') : t('Activar modo oscuro', 'Switch to dark mode');
+  return <button className="theme-toggle icon-button" onClick={toggle} aria-label={label} title={label}>{dark ? <SunIcon size={22} /> : <MoonIcon size={22} />}</button>;
 }

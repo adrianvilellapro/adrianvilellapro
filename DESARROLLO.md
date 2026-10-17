@@ -33,6 +33,8 @@ node scripts/serve-build.mjs
 
 ## GitHub Pages
 
+El portfolio se publica en español (`/`) y en inglés (`/index.en.html`). El selector ES / EN de la cabecera funciona también sin JavaScript; con JavaScript conserva la sección actual al cambiar. Cada página tiene HTML completo prerenderizado, `lang`, título, metadatos, enlaces `hreflang` y datos estructurados en su idioma. El tema claro/oscuro se comparte entre ambas versiones. Se traducen los casos de estudio, pies y descripciones de imágenes, diálogos y etiquetas accesibles; las capturas originales no se alteran. Vue.js se muestra en el stack general y en ambos README, sin atribuirlo a proyectos que no lo utilizan. La tarjeta profesional independiente `/card/` y el CV original se conservan en español.
+
 ```powershell
 npm.cmd run build:pages
 ```

@@ -3,8 +3,10 @@ import { ArrowLeftIcon, ArrowRightIcon, CornersOutIcon, XIcon } from '@phosphor-
 import type { Project } from '../data/projects';
 import { optimized } from '../data/profile';
 import { useGallerySwipe } from '../hooks/useGallerySwipe';
+import { useLanguage } from '../i18n';
 
 export function ProjectGallery({ project }: { project: Project }) {
+  const { t } = useLanguage();
   const [selected, setSelected] = useState(0);
   const [expanded, setExpanded] = useState(false);
   const dialog = useRef<HTMLDialogElement>(null);
@@ -25,21 +27,21 @@ export function ProjectGallery({ project }: { project: Project }) {
   return (
     <div className={`project-gallery gallery-${project.id}`}>
       <figure>
-        <button ref={trigger} className="gallery-main" {...swipe} style={{ aspectRatio: current.width < current.height ? '4 / 3' : `${project.images[0].width} / ${project.images[0].height}` }} onClick={() => setExpanded(true)} aria-label={`Ampliar captura de ${project.name}: ${current.label}`}>
+        <button ref={trigger} className="gallery-main" {...swipe} style={{ aspectRatio: current.width < current.height ? '4 / 3' : `${project.images[0].width} / ${project.images[0].height}` }} onClick={() => setExpanded(true)} aria-label={`${t('Ampliar captura de', 'Enlarge screenshot of')} ${project.name}: ${current.label}`}>
           <img src={optimized(`${current.file}.webp`)} alt={current.alt} width={current.width} height={current.height} loading="lazy" decoding="async" draggable={false} />
-          <span className="gallery-expand" aria-hidden="true"><CornersOutIcon size={18} /> Ampliar</span>
+          <span className="gallery-expand" aria-hidden="true"><CornersOutIcon size={18} /> {t('Ampliar', 'Enlarge')}</span>
         </button>
         <figcaption><span aria-live="polite">{current.label}</span><span className="mono">{String(selected + 1).padStart(2, '0')} / {String(project.images.length).padStart(2, '0')}</span></figcaption>
       </figure>
-      <div className="gallery-thumbnails" aria-label={`Capturas de ${project.name}`}>
+      <div className="gallery-thumbnails" aria-label={`${t('Capturas de', 'Screenshots of')} ${project.name}`}>
         {project.images.map((image, index) => (
-          <button key={image.file} className={selected === index ? 'is-selected' : ''} aria-pressed={selected === index} aria-label={`Mostrar ${image.label.toLowerCase()}`} onClick={() => setSelected(index)}>
+          <button key={image.file} className={selected === index ? 'is-selected' : ''} aria-pressed={selected === index} aria-label={`${t('Mostrar', 'Show')} ${image.label.toLowerCase()}`} onClick={() => setSelected(index)}>
             <img src={optimized(`${image.file}-thumb.webp`)} alt="" width={image.width} height={image.height} loading="lazy" decoding="async" />
           </button>
         ))}
       </div>
       {expanded && (
-        <dialog ref={dialog} className="image-dialog" aria-label={`Capturas de ${project.name}`} onCancel={() => setExpanded(false)} onClick={(event) => { if (event.target === event.currentTarget) setExpanded(false); }} onKeyDown={(event) => {
+        <dialog ref={dialog} className="image-dialog" aria-label={`${t('Capturas de', 'Screenshots of')} ${project.name}`} onCancel={() => setExpanded(false)} onClick={(event) => { if (event.target === event.currentTarget) setExpanded(false); }} onKeyDown={(event) => {
           if (event.key === 'Tab') {
             const buttons = event.currentTarget.querySelectorAll<HTMLButtonElement>('button');
             const first = buttons[0];
@@ -51,9 +53,9 @@ export function ProjectGallery({ project }: { project: Project }) {
           if (event.key === 'ArrowLeft') { event.preventDefault(); navigate(-1); }
         }}>
           <div className="dialog-inner">
-            <div className="dialog-top"><span>{project.name}</span><button className="icon-button" aria-label="Cerrar captura" onClick={() => setExpanded(false)} autoFocus><XIcon size={24} /></button></div>
+            <div className="dialog-top"><span>{project.name}</span><button className="icon-button" aria-label={t('Cerrar captura', 'Close screenshot')} onClick={() => setExpanded(false)} autoFocus><XIcon size={24} /></button></div>
             <img className="dialog-image" {...swipe} src={optimized(`${current.file}.webp`)} alt={current.alt} width={current.width} height={current.height} draggable={false} />
-            <div className="dialog-bottom"><button className="icon-button" aria-label="Captura anterior" onClick={() => navigate(-1)}><ArrowLeftIcon size={23} /></button><span aria-live="polite">{current.label} · {selected + 1}/{project.images.length}</span><button className="icon-button" aria-label="Captura siguiente" onClick={() => navigate(1)}><ArrowRightIcon size={23} /></button></div>
+            <div className="dialog-bottom"><button className="icon-button" aria-label={t('Captura anterior', 'Previous screenshot')} onClick={() => navigate(-1)}><ArrowLeftIcon size={23} /></button><span aria-live="polite">{current.label} · {selected + 1}/{project.images.length}</span><button className="icon-button" aria-label={t('Captura siguiente', 'Next screenshot')} onClick={() => navigate(1)}><ArrowRightIcon size={23} /></button></div>
           </div>
         </dialog>
       )}

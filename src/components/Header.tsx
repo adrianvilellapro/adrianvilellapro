@@ -3,15 +3,18 @@ import { ArrowUpRightIcon, GithubLogoIcon, ListIcon, XIcon } from '@phosphor-ico
 import { profile } from '../data/profile';
 import { ExternalLink } from './ExternalLink';
 import { ThemeToggle } from './ThemeToggle';
+import { LanguageSwitcher } from './LanguageSwitcher';
+import { useLanguage } from '../i18n';
 
 const navigation = [
-  { id: 'proyectos', label: 'Proyectos' },
-  { id: 'sobre-mi', label: 'Sobre mí' },
-  { id: 'experiencia', label: 'Experiencia' },
-  { id: 'contacto', label: 'Contacto' },
+  { id: 'proyectos', label: 'Proyectos', en: 'Projects' },
+  { id: 'sobre-mi', label: 'Sobre mí', en: 'About me' },
+  { id: 'experiencia', label: 'Experiencia', en: 'Experience' },
+  { id: 'contacto', label: 'Contacto', en: 'Contact' },
 ];
 
 export function Header() {
+  const { t } = useLanguage();
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState('');
   const toggle = useRef<HTMLButtonElement>(null);
@@ -44,15 +47,16 @@ export function Header() {
     <header className="header">
       <div className="container header-inner">
         <div className="header-identity">
-          <a className="brand" href="#inicio" aria-label="Adrián Vilella, inicio" onClick={() => setOpen(false)}>
+          <a className="brand" href="#inicio" aria-label={t('Adrián Vilella, inicio', 'Adrián Vilella, home')} onClick={() => setOpen(false)}>
             <span className="brand-mark" aria-hidden="true">av<span>.</span></span>
             <span>Adrián Vilella</span>
           </a>
           <ThemeToggle />
+          <LanguageSwitcher />
         </div>
-        <nav id="main-navigation" className={`navigation ${open ? 'is-open' : ''}`} aria-label="Navegación principal">
+        <nav id="main-navigation" className={`navigation ${open ? 'is-open' : ''}`} aria-label={t('Navegación principal', 'Main navigation')}>
           <div className="nav-sections">
-            {navigation.map(({ id, label }) => <a key={id} href={`#${id}`} aria-current={active === id ? 'location' : undefined} onClick={() => setOpen(false)}>{label}</a>)}
+            {navigation.map(({ id, label, en }) => <a key={id} href={`#${id}`} aria-current={active === id ? 'location' : undefined} onClick={() => setOpen(false)}>{t(label, en)}</a>)}
           </div>
           <div className="nav-social">
             <ExternalLink href={profile.github} className="icon-button" aria-label="GitHub"><GithubLogoIcon size={20} /></ExternalLink>
@@ -60,7 +64,7 @@ export function Header() {
           </div>
         </nav>
         <div className="header-controls">
-          <button ref={toggle} className="menu-toggle icon-button" aria-label={open ? 'Cerrar menú' : 'Abrir menú'} aria-expanded={open} aria-controls="main-navigation" onClick={() => setOpen(!open)}>
+          <button ref={toggle} className="menu-toggle icon-button" aria-label={open ? t('Cerrar menú', 'Close menu') : t('Abrir menú', 'Open menu')} aria-expanded={open} aria-controls="main-navigation" onClick={() => setOpen(!open)}>
             {open ? <XIcon size={23} /> : <ListIcon size={23} />}
           </button>
         </div>

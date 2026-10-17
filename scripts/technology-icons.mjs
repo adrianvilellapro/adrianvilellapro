@@ -2,7 +2,7 @@ import * as icons from 'simple-icons';
 import { mkdir, writeFile, copyFile } from 'node:fs/promises';
 
 const definitions = {
-  React: ['React'], 'Next.js': ['Nextdotjs'], Angular: ['Angular', 'DD0031'], TypeScript: ['Typescript'], JavaScript: ['Javascript'],
+  React: ['React'], 'Vue.js': ['Vuedotjs'], 'Next.js': ['Nextdotjs'], Angular: ['Angular', 'DD0031'], TypeScript: ['Typescript'], JavaScript: ['Javascript'],
   HTML: ['Html5'], CSS: ['Css'], Tailwind: ['Tailwindcss'], Sass: ['Sass'], Vite: ['Vite'],
   'Node.js': ['Nodedotjs'], Express: ['Express'], JWT: ['Jsonwebtokens'], 'Google OAuth': ['Google'],
   PostgreSQL: ['Postgresql'], SQLite: ['Sqlite'], MySQL: ['Mysql'], MongoDB: ['Mongodb'], Prisma: ['Prisma'], Sequelize: ['Sequelize'], Docker: ['Docker'],

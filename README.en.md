@@ -20,7 +20,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/adri%C3%A1n-vilella-espony-40a046410"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/adrianvilellapro"><img src="https://img.shields.io/badge/GitHub-1f2937?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://adrianvilellapro.github.io/adrianvilellapro/"><img src="https://img.shields.io/badge/Portfolio_website-2563eb?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio website" /></a>
+  <a href="https://adrianvilellapro.github.io/adrianvilellapro/index.en.html"><img src="https://img.shields.io/badge/Portfolio_website-2563eb?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio website" /></a>
 </p>
 
 <p align="center">
@@ -48,6 +48,7 @@ I am currently continuing to expand my knowledge and develop projects focused on
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
   <img src="https://img.shields.io/badge/React-087EA4?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=111827" alt="Vue.js" />
   <img src="https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="Electron" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
