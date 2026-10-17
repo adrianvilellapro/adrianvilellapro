@@ -5,7 +5,8 @@ const definitions = {
   React: ['React'], 'Next.js': ['Nextdotjs'], Angular: ['Angular', 'DD0031'], TypeScript: ['Typescript'], JavaScript: ['Javascript'],
   HTML: ['Html5'], CSS: ['Css'], Tailwind: ['Tailwindcss'], Sass: ['Sass'], Vite: ['Vite'],
   'Node.js': ['Nodedotjs'], Express: ['Express'], JWT: ['Jsonwebtokens'], 'Google OAuth': ['Google'],
-  PostgreSQL: ['Postgresql'], MySQL: ['Mysql'], MongoDB: ['Mongodb'], Prisma: ['Prisma'], Sequelize: ['Sequelize'], Docker: ['Docker'],
+  PostgreSQL: ['Postgresql'], SQLite: ['Sqlite'], MySQL: ['Mysql'], MongoDB: ['Mongodb'], Prisma: ['Prisma'], Sequelize: ['Sequelize'], Docker: ['Docker'],
+  Electron: ['Electron'], Neon: ['Neon'], Vitest: ['Vitest'], Zod: ['Zod'], 'GitHub Actions': ['Githubactions'],
   Git: ['Git'], GitHub: ['Github'], Vercel: ['Vercel'], Render: ['Render'], Supabase: ['Supabase'],
   Cloudinary: ['Cloudinary'], 'Three.js': ['Threedotjs'], WebGL: ['Webgl'], 'Chrome Extensions': ['Googlechrome'], Figma: ['Figma'],
 };

@@ -74,6 +74,11 @@
     "color": "#4169E1",
     "label": "PostgreSQL"
   },
+  "SQLite": {
+    "file": "sqlite.svg",
+    "color": "#003B57",
+    "label": "SQLite"
+  },
   "MySQL": {
     "file": "mysql.svg",
     "color": "#4479A1",
@@ -98,6 +103,31 @@
     "file": "docker.svg",
     "color": "#2496ED",
     "label": "Docker"
+  },
+  "Electron": {
+    "file": "electron.svg",
+    "color": "#47848F",
+    "label": "Electron"
+  },
+  "Neon": {
+    "file": "neon.svg",
+    "color": "#34D59A",
+    "label": "Neon"
+  },
+  "Vitest": {
+    "file": "vitest.svg",
+    "color": "#00FF74",
+    "label": "Vitest"
+  },
+  "Zod": {
+    "file": "zod.svg",
+    "color": "#408AFF",
+    "label": "Zod"
+  },
+  "GitHub Actions": {
+    "file": "githubactions.svg",
+    "color": "#2088FF",
+    "label": "GitHub Actions"
   },
   "Git": {
     "file": "git.svg",

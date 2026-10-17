@@ -70,7 +70,9 @@ Las capturas principales son las vistas de filtros de Nutrivisor, la biblioteca 
 
 ## Tema, contacto y logos
 
-En escritorio, los tres proyectos mantienen la galería a la izquierda y el texto a la derecha. Hasta 960 px se apilan en el mismo orden, con la galería a todo el ancho y sin posición fija durante el scroll. Las capturas admiten gestos horizontales táctiles tanto en la página como en el visor; se conserva el desplazamiento vertical, el zoom del navegador, las miniaturas y la navegación de teclado. Las pruebas incluyen secuencias de puntero en los cuatro motores y gestos táctiles nativos mediante CDP en Chrome móvil.
+En escritorio, los proyectos mantienen la galería a la izquierda y el texto a la derecha. Hasta 960 px se apilan en el mismo orden, con la galería a todo el ancho y sin posición fija durante el scroll. Las capturas admiten gestos horizontales táctiles tanto en la página como en el visor; se conserva el desplazamiento vertical, el zoom del navegador, las miniaturas y la navegación de teclado. Las pruebas incluyen secuencias de puntero en los cuatro motores y gestos táctiles nativos mediante CDP en Chrome móvil.
+
+Mappleo utiliza esta misma estructura de caso de estudio, con 16 capturas de la web, sus informes y la aplicación de Windows. Dashboard es su vista inicial; sus miniaturas se distribuyen en varias filas para evitar desbordamientos. La galería sirve WebP optimizados y miniaturas ligeras, conservando los originales en `public/portfolio-assets/`. Los enlaces llevan a la demo estática, al repositorio público y a la última versión del instalador. El stack general incluye también Electron, SQLite, Neon, Zod, Vitest, Playwright y GitHub Actions; Docker y Next.js ya estaban presentes.
 
 El botón de la cabecera cambia entre claro y oscuro. Se guarda la preferencia en `localStorage`; si todavía no hay una elección, se utiliza el tema del dispositivo. La selección inicial se aplica antes de cargar React para evitar un destello del tema incorrecto.
 

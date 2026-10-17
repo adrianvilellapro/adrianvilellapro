@@ -10,7 +10,7 @@ test('HTML legible sin JavaScript y metadatos coherentes', async ({ browser, pag
   const person = graph.find((item: { '@type': string }) => item['@type'] === 'Person');
   expect(person.name).toBe('Adrián Vilella Espony');
   expect(person.knowsAbout).toEqual(expect.arrayContaining(['Next.js', 'MongoDB', 'Docker']));
-  expect(graph.filter((item: { '@type': string }) => item['@type'] === 'SoftwareSourceCode')).toHaveLength(3);
+  expect(graph.filter((item: { '@type': string }) => item['@type'] === 'SoftwareSourceCode')).toHaveLength(4);
   expect(await (await request.get('sitemap.xml')).text()).toContain('<loc>https://adrianvilellapro.github.io/adrianvilellapro/</loc>');
   expect(await (await request.get('robots.txt')).text()).toContain('User-agent: *');
 
@@ -22,7 +22,7 @@ test('HTML legible sin JavaScript y metadatos coherentes', async ({ browser, pag
     for (const text of ['NTT DATA', 'GESPROMOS / HP', 'Universidad de Alicante', 'Grado en Ingeniería Multimedia', 'Next.js', 'MongoDB', 'Docker', 'adrian.vilella.pro@gmail.com']) {
       await expect(main).toContainText(text, { ignoreCase: true });
     }
-    for (const id of ['nutrivisor', 'wikicodex', 'crowdcompass']) {
+    for (const id of ['nutrivisor', 'mappleo', 'wikicodex', 'crowdcompass']) {
       await expect(staticPage.locator(`#${id}`)).toBeVisible();
     }
     const staticText = await main.innerText();
