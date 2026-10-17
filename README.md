@@ -48,16 +48,25 @@ Actualmente continúo ampliando mis conocimientos y desarrollando proyectos cent
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
   <img src="https://img.shields.io/badge/React-087EA4?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="Electron" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Express-111827?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
   <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Vercel-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=111827" alt="Neon" />
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge" alt="Playwright" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
   <img src="https://img.shields.io/badge/Figma-A259FF?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
   <img src="https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white" alt="WebGL" />
 </p>
@@ -65,6 +74,34 @@ Actualmente continúo ampliando mis conocimientos y desarrollando proyectos cent
 ---
 
 ## Proyectos destacados
+
+### Mappleo
+
+<p align="center">
+  <a href="https://github.com/adrianvilellapro/Mappleo_App">
+    <img src="./public/portfolio-assets/mappleo-logo.png" alt="Logo de Mappleo" width="130" />
+  </a>
+</p>
+
+Aplicación web y de Windows para organizar la búsqueda de empleo, conectando empresas, ofertas, candidaturas, contactos y eventos de networking. Mappleo reúne el seguimiento de procesos, las tareas y las fechas importantes en un espacio visual, con Kanban, calendario y estadísticas para saber cuál es el siguiente paso.
+
+<p align="center">
+  <a href="https://adrianvilellapro.github.io/Mappleo_App/es/index.html">
+    <img src="./public/portfolio-assets/mappleo-dashboard.png" alt="Dashboard de Mappleo con el perfil ficticio de John Miller" width="820" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/adrianvilellapro/Mappleo_App"><img src="https://img.shields.io/badge/Repositorio-1f2937?style=for-the-badge&logo=github&logoColor=white" alt="Repositorio de Mappleo" /></a>
+  <a href="https://adrianvilellapro.github.io/Mappleo_App/es/index.html"><img src="https://img.shields.io/badge/Demo-2563eb?style=for-the-badge&logo=githubpages&logoColor=white" alt="Demo web de Mappleo en español" /></a>
+  <a href="https://github.com/adrianvilellapro/Mappleo_App/releases/latest"><img src="https://img.shields.io/badge/Windows-Descargar_instalador-0f766e?style=for-the-badge" alt="Descargar Mappleo para Windows" /></a>
+</p>
+
+- Web responsive con React, Next.js y TypeScript; backend con Prisma y PostgreSQL.
+- Aplicación de Windows con Electron y SQLite local cifrado, uso sin conexión y sincronización opcional con la cuenta web. Los CV y las cartas se conservan exclusivamente en el ordenador.
+- Kanban con tarjetas arrastrables, historial de candidaturas, calendario, estadísticas y exportación de datos.
+- Autenticación, cifrado de campos personales y pruebas automatizadas con Vitest y Playwright. Docker para el entorno local y CI con GitHub Actions.
+- Demo web estática e interactiva con datos ficticios, sin registro ni consumo de servicios de producción.
 
 ### WikiCodex
 
